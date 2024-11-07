@@ -15,6 +15,9 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - nice to see you
+    - howdy
+    - yo
 - intent: goodbye
   examples: |
     - cu
@@ -83,3 +86,20 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- intent: tell_name
+  examples: |
+    - I am [Marco](name)
+    - Call me [Patrick](name)
+    - It's [Aline](name)
+    - I'm [Irene](name)
+    - My name is [Marco](name)
+    - People call me [Marco](name)
+    - I am called [Donald](name)
+    - [Jennifer](name)
+    - They call me [Eugene](name)
+    - Call me [Max](name)
+    - My friends call me [Winni](name)
+    - [Hanna](name)
+    - [Sarah](name)
+    - [Tim](name)
+    - [John](name)
